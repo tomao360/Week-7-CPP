@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Lesson1-Objects&amp;Classes-07_11_22">
+      <UniqueIdentifier>{d692eb9e-4260-458e-83cf-6900bfe819b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lesson1-Objects&amp;Classes-07_11_22\ClassExample">
+      <UniqueIdentifier>{b915503f-6eb2-48bd-9ad8-7535c38dbb46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lesson1-Objects&amp;Classes-07_11_22\HW">
+      <UniqueIdentifier>{6374d306-3bba-4d6b-a1cf-5a0efc61748f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lesson2-09_11_22">
+      <UniqueIdentifier>{e987b047-8619-4307-ac14-9f1ca0903828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lesson2-09_11_22\Class">
+      <UniqueIdentifier>{1718529b-d485-41a8-8163-78f4275039ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main-Dog.cpp">
+      <Filter>Source Files\Lesson1-Objects&amp;Classes-07_11_22\ClassExample</Filter>
+    </ClCompile>
+    <ClCompile Include="Dog.cpp">
+      <Filter>Source Files\Lesson1-Objects&amp;Classes-07_11_22\ClassExample</Filter>
+    </ClCompile>
+    <ClCompile Include="main-Blog.cpp">
+      <Filter>Source Files\Lesson1-Objects&amp;Classes-07_11_22\HW</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>Source Files\Lesson1-Objects&amp;Classes-07_11_22\HW</Filter>
+    </ClCompile>
+    <ClCompile Include="Blog.cpp">
+      <Filter>Source Files\Lesson1-Objects&amp;Classes-07_11_22\HW</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>Source Files\Lesson1-Objects&amp;Classes-07_11_22\HW</Filter>
+    </ClCompile>
+    <ClCompile Include="main-Car.cpp">
+      <Filter>Source Files\Lesson1-Objects&amp;Classes-07_11_22\HW</Filter>
+    </ClCompile>
+    <ClCompile Include="mainReader.cpp">
+      <Filter>Source Files\Lesson2-09_11_22\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Reader.cpp">
+      <Filter>Source Files\Lesson2-09_11_22\Class</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Dog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Blog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
