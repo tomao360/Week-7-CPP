@@ -127,22 +127,47 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Animal.cpp" />
+    <ClCompile Include="AnimalRunner.cpp" />
     <ClCompile Include="Ball.cpp" />
+    <ClCompile Include="Base.cpp" />
     <ClCompile Include="Blog.cpp" />
     <ClCompile Include="Car.cpp" />
+    <ClCompile Include="Cat.cpp" />
+    <ClCompile Include="CChild.cpp" />
+    <ClCompile Include="Child.cpp" />
+    <ClCompile Include="DDog.cpp" />
     <ClCompile Include="Dog.cpp" />
+    <ClCompile Include="ItemPrice.cpp" />
+    <ClCompile Include="ItemPriceEilat.cpp" />
     <ClCompile Include="main-Blog.cpp" />
     <ClCompile Include="main-Dog.cpp" />
     <ClCompile Include="main-Car.cpp" />
+    <ClCompile Include="mainBase.cpp" />
+    <ClCompile Include="mainItemPrice.cpp" />
     <ClCompile Include="mainReader.cpp" />
+    <ClCompile Include="Parent.cpp" />
     <ClCompile Include="Reader.cpp" />
+    <ClCompile Include="Runner.cpp" />
+    <ClCompile Include="mainHW.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Animal.h" />
+    <ClInclude Include="AnimalRunner.h" />
     <ClInclude Include="Ball.h" />
+    <ClInclude Include="Base.h" />
     <ClInclude Include="Blog.h" />
     <ClInclude Include="Car.h" />
+    <ClInclude Include="Cat.h" />
+    <ClInclude Include="CChild.h" />
+    <ClInclude Include="Child.h" />
+    <ClInclude Include="DDog.h" />
     <ClInclude Include="Dog.h" />
+    <ClInclude Include="ItemPrice.h" />
+    <ClInclude Include="ItemPriceEilat.h" />
+    <ClInclude Include="Parent.h" />
     <ClInclude Include="Reader.h" />
+    <ClInclude Include="Runner.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -28,6 +28,9 @@
     <Filter Include="Source Files\Lesson2-09_11_22\Class">
       <UniqueIdentifier>{1718529b-d485-41a8-8163-78f4275039ce}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Lesson2-09_11_22\HW">
+      <UniqueIdentifier>{87de7e9a-223c-4a59-83aa-236e9aa5e9de}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main-Dog.cpp">
@@ -57,6 +60,48 @@
     <ClCompile Include="Reader.cpp">
       <Filter>Source Files\Lesson2-09_11_22\Class</Filter>
     </ClCompile>
+    <ClCompile Include="Base.cpp">
+      <Filter>Source Files\Lesson2-09_11_22\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="mainBase.cpp">
+      <Filter>Source Files\Lesson2-09_11_22\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Child.cpp">
+      <Filter>Source Files\Lesson2-09_11_22\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="mainItemPrice.cpp">
+      <Filter>Source Files\Lesson2-09_11_22\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemPrice.cpp">
+      <Filter>Source Files\Lesson2-09_11_22\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemPriceEilat.cpp">
+      <Filter>Source Files\Lesson2-09_11_22\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Animal.cpp">
+      <Filter>Source Files\Lesson2-09_11_22\HW</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimalRunner.cpp">
+      <Filter>Source Files\Lesson2-09_11_22\HW</Filter>
+    </ClCompile>
+    <ClCompile Include="Cat.cpp">
+      <Filter>Source Files\Lesson2-09_11_22\HW</Filter>
+    </ClCompile>
+    <ClCompile Include="CChild.cpp">
+      <Filter>Source Files\Lesson2-09_11_22\HW</Filter>
+    </ClCompile>
+    <ClCompile Include="DDog.cpp">
+      <Filter>Source Files\Lesson2-09_11_22\HW</Filter>
+    </ClCompile>
+    <ClCompile Include="Parent.cpp">
+      <Filter>Source Files\Lesson2-09_11_22\HW</Filter>
+    </ClCompile>
+    <ClCompile Include="Runner.cpp">
+      <Filter>Source Files\Lesson2-09_11_22\HW</Filter>
+    </ClCompile>
+    <ClCompile Include="mainHW.cpp">
+      <Filter>Source Files\Lesson2-09_11_22\HW</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dog.h">
@@ -72,6 +117,39 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Child.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemPrice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemPriceEilat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Parent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CChild.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Runner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Animal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimalRunner.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

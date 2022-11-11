@@ -19,18 +19,19 @@ int main_4()
 
   
 	Reader* list[10];
-	for (int i = 0; i < 10; i++)  //Allocate 
+	for (int i = 0; i < 10; i++)  //Allocate 10 objects
 	{
 		char str[] = "Movies";
 		list[i] = new Reader(str);
-		for (int j = 0; j < 5; j++)
+
+		for (int j = 0; j < 5; j++)  //Insert lines to each list
 		{
 			char str1[] = "Ironman";
 			list[i]->AddLine(str1);
 		}
 
-		list[i]->Print();
-		delete list[i];
+		list[i]->Print();   //Print
+		delete list[i];  //Deallocate
 	}
 
 	return 0;
